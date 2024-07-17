@@ -1,0 +1,81 @@
+/* navbar.css */
+
+/* Reset styles */
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #1e293b;
+    /* Example background color */
+}
+
+/* Utility classes */
+.min-h-screen {
+    min-height: 100vh;
+    /* Ensures the page fills the viewport */
+}
+
+.flex-1 {
+    flex: 1;
+    /* Flexbox utility class */
+}
+
+.center {
+    justify-content: center;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.left-0 {
+    justify-content: flex-start;
+    left: 10px;
+    transform: translateX(0);
+}
+
+/* Navbar animation classes */
+.nav-hidden {
+    display: none;
+    /* Hides navbar when not shown */
+}
+
+.nav-show {
+    display: flex;
+    /* Shows navbar when activated */
+}
+
+/* Search bar animation classes */
+.input {
+    border: none;
+    outline: none;
+    /* Removes default browser focus outline */
+    background: transparent;
+    padding: 5px;
+    transition: width 0.5s, opacity 0.5s;
+    color: white;
+    /* Example text color */
+    flex: 1;
+    /* Takes up remaining space */
+}
+
+.searchicon {
+    cursor: pointer;
+    /* Cursor style for search icon */
+}
+
+.button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.button:focus {
+    outline: none;
+    /* Removes focus outline on button */
+}

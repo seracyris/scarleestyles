@@ -1,0 +1,130 @@
+const countries = [
+    {
+        name: "United States",
+        states: [
+            "Alabama",
+            "Alaska",
+            "Arizona",
+            "Arkansas",
+            "California",
+            "Colorado",
+            "Connecticut",
+            "Delaware",
+            "Florida",
+            "Georgia",
+            "Hawaii",
+            "Idaho",
+            "Illinois",
+            "Indiana",
+            "Iowa",
+            "Kansas",
+            "Kentucky",
+            "Louisiana",
+            "Maine",
+            "Maryland",
+            "Massachusetts",
+            "Michigan",
+            "Minnesota",
+            "Mississippi",
+            "Missouri",
+            "Montana",
+            "Nebraska",
+            "Nevada",
+            "New Hampshire",
+            "New Jersey",
+            "New Mexico",
+            "New York",
+            "North Carolina",
+            "North Dakota",
+            "Ohio",
+            "Oklahoma",
+            "Oregon",
+            "Pennsylvania",
+            "Rhode Island",
+            "South Carolina",
+            "South Dakota",
+            "Tennessee",
+            "Texas",
+            "Utah",
+            "Vermont",
+            "Virginia",
+            "Washington",
+            "West Virginia",
+            "Wisconsin",
+            "Wyoming"
+        ]
+    },
+    {
+        name: "Canada",
+        states: [
+            "Alberta",
+            "British Columbia",
+            "Manitoba",
+            "New Brunswick",
+            "Newfoundland and Labrador",
+            "Nova Scotia",
+            "Ontario",
+            "Prince Edward Island",
+            "Quebec",
+            "Saskatchewan"
+        ]
+    },
+    {
+        name: "Australia",
+        states: [
+            "Australian Capital Territory",
+            "New South Wales",
+            "Northern Territory",
+            "Queensland",
+            "South Australia",
+            "Tasmania",
+            "Victoria",
+            "Western Australia"
+        ]
+    },
+    {
+        name: "United Kingdom",
+        states: [
+            "England",
+            "Northern Ireland",
+            "Scotland",
+            "Wales"
+        ]
+    },
+    {
+        name: "India",
+        states: [
+            "Andhra Pradesh",
+            "Arunachal Pradesh",
+            "Assam",
+            "Bihar",
+            "Chhattisgarh",
+            "Goa",
+            "Gujarat",
+            "Haryana",
+            "Himachal Pradesh",
+            "Jharkhand",
+            "Karnataka",
+            "Kerala",
+            "Madhya Pradesh",
+            "Maharashtra",
+            "Manipur",
+            "Meghalaya",
+            "Mizoram",
+            "Nagaland",
+            "Odisha",
+            "Punjab",
+            "Rajasthan",
+            "Sikkim",
+            "Tamil Nadu",
+            "Telangana",
+            "Tripura",
+            "Uttar Pradesh",
+            "Uttarakhand",
+            "West Bengal"
+        ]
+    },
+    // Add more countries and states as needed
+];
+
+export default countries;
