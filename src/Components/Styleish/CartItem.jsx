@@ -12,8 +12,8 @@ const CartItem = (props) => {
         const fetchProductDetail = async () => {
             try {
                 const productDetail = await ProductService.getProductById(productId);
+                console.log('Product Detail:', productDetail); // Debug log
                 if (productDetail) {
-                    console.log('Fetched product detail:', productDetail);
                     setDetail(productDetail);
                 } else {
                     console.error('Product not found');

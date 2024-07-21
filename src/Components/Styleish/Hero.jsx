@@ -1,6 +1,5 @@
 import React from 'react'
 import Filler_Img from '../../Assets/Pictures/filler_img.png'
-import './hero.css'
 
 const Hero = () => {
     return (
